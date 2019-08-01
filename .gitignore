@@ -1,6 +1,8 @@
 .DS_Store
 node_modules
-/dist
+webapp/dist
+pdf_parsing/out
+pdf_parsing/squares
 
 # local env files
 .env.local
