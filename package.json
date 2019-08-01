@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-chessboard": "^0.6.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.9.0",
