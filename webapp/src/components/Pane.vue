@@ -21,8 +21,8 @@
 </template>
 
 <script>
-//import fens from "../../../pdf_parsing/fens.json";
-import fens from "../assets/testfens.json";
+import fens from "../../../pdf_parsing/fens.json";
+//import fens from "../assets/testfens.json";
 
 import { eventBus } from "../main";
 
@@ -43,7 +43,7 @@ export default {
       } else {
         this.showError = false;
         // send it to Board.vue
-        eventBus.$emit("updateBoard", fen);
+        eventBus.$emit("updateBoard", fen + " w KQkq - 0 1");
       }
     }
   }
